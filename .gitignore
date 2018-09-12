@@ -1,0 +1,7 @@
+./
+data/
+Research/
+__pycache__/
+*.pyc
+*.csv
+*.txt

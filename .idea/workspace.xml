@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad2bfb05-9c18-4322-a564-b9c5ba45d948" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSTM/LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q/__init__.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$DTLearner.coverage" NAME="DTLearner Coverage Results" MODIFIED="1535746665442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$ML_based__1_.coverage" NAME="ML_based (1) Coverage Results" MODIFIED="1533768554664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/RT2" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis__1_.coverage" NAME="analysis (1) Coverage Results" MODIFIED="1534424720393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$marketsim.coverage" NAME="marketsim Coverage Results" MODIFIED="1536579569988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$KNNtestlearner.coverage" NAME="KNNtestlearner Coverage Results" MODIFIED="1532885815002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$OptimalStrategy.coverage" NAME="OptimalStrategy Coverage Results" MODIFIED="1534529881547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Optimization" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$featureSelection.coverage" NAME="featureSelection Coverage Results" MODIFIED="1535508777352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_best4__1_.coverage" NAME="grade_best4 (1) Coverage Results" MODIFIED="1533428305942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/D_OverFit" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$teststrategy__1_.coverage" NAME="teststrategy (1) Coverage Results" MODIFIED="1533427031561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$StrategyLearner__1_.coverage" NAME="StrategyLearner (1) Coverage Results" MODIFIED="1533770055983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testbest4__1_.coverage" NAME="testbest4 (1) Coverage Results" MODIFIED="1532880200544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/D_OverFit" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$BestPossibleStrategy.coverage" NAME="BestPossibleStrategy Coverage Results" MODIFIED="1533422689535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/B_PortfolioOptimization" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$indicators__2_.coverage" NAME="indicators (2) Coverage Results" MODIFIED="1535505695954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$BagLearner.coverage" NAME="BagLearner Coverage Results" MODIFIED="1535941978842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis__4_.coverage" NAME="analysis (4) Coverage Results" MODIFIED="1532803648508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CS7646-master/CS7646CC/ml4t/mc1_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_marketsim.coverage" NAME="grade_marketsim Coverage Results" MODIFIED="1533513366372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/C_MarketSimulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$Bagtestlearner.coverage" NAME="Bagtestlearner Coverage Results" MODIFIED="1532880747084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$teststrategy.coverage" NAME="teststrategy Coverage Results" MODIFIED="1535943445975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$optimization__2_.coverage" NAME="optimization (2) Coverage Results" MODIFIED="1532819387583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2/mc1_p2/portfolio" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$best_strategy_sim.coverage" NAME="best_strategy_sim Coverage Results" MODIFIED="1535942010989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_strategy_learner.coverage" NAME="grade_strategy_learner Coverage Results" MODIFIED="1533692714060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/RT" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$StrategyLearner2__1_.coverage" NAME="StrategyLearner2 (1) Coverage Results" MODIFIED="1533771015020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testbest4.coverage" NAME="testbest4 Coverage Results" MODIFIED="1533428076741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/D_OverFit" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$KNNLearner.coverage" NAME="KNNLearner Coverage Results" MODIFIED="1535678362246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_marketsim__1_.coverage" NAME="grade_marketsim (1) Coverage Results" MODIFIED="1532822419880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/C_MarketSimulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$AlgorithmicTrader.coverage" NAME="AlgorithmicTrader Coverage Results" MODIFIED="1535910266606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_robot_qlearning.coverage" NAME="grade_robot_qlearning Coverage Results" MODIFIED="1532889888829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/qlearning_robot" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$gen_data.coverage" NAME="gen_data Coverage Results" MODIFIED="1532865986306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/defeat_learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$TheoreticallyOptimalStrategy.coverage" NAME="TheoreticallyOptimalStrategy Coverage Results" MODIFIED="1532901411574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/G_TechnicalStrategies" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$TechnicalStrategy.coverage" NAME="TechnicalStrategy Coverage Results" MODIFIED="1533422410201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/G_TechnicalStrategies" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$ANN.coverage" NAME="ANN Coverage Results" MODIFIED="1535508772586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$simulate_market.coverage" NAME="simulate_market Coverage Results" MODIFIED="1535943374474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$test.coverage" NAME="test Coverage Results" MODIFIED="1535766688886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RT" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$indicators__3_.coverage" NAME="indicators (3) Coverage Results" MODIFIED="1533416628072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testqlearner__1_.coverage" NAME="testqlearner (1) Coverage Results" MODIFIED="1533425672027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/F_Q_Learner" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$code.coverage" NAME="code Coverage Results" MODIFIED="1533415608597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2/mc3_p2" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$optimization__3_.coverage" NAME="optimization (3) Coverage Results" MODIFIED="1532819688033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_optimization__1_.coverage" NAME="grade_optimization (1) Coverage Results" MODIFIED="1532821463940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/C_PortfolioOptimization" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1535678348861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$KNNLearner__1_.coverage" NAME="KNNLearner (1) Coverage Results" MODIFIED="1533424210717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$QLearner.coverage" NAME="QLearner Coverage Results" MODIFIED="1535937799533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$indicators.coverage" NAME="indicators Coverage Results" MODIFIED="1536203161293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$ML_based.coverage" NAME="ML_based Coverage Results" MODIFIED="1536579542244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RF" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis__3_.coverage" NAME="analysis (3) Coverage Results" MODIFIED="1532818042216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/1 Analysis" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$marketsim__2_.coverage" NAME="marketsim (2) Coverage Results" MODIFIED="1532821569350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2/mc2_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$generate_graphs.coverage" NAME="generate_graphs Coverage Results" MODIFIED="1533415423669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$ManualStrategy__1_.coverage" NAME="ManualStrategy (1) Coverage Results" MODIFIED="1533514213801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/G_TechnicalStrategies" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$LinRegLearner.coverage" NAME="LinRegLearner Coverage Results" MODIFIED="1535688441528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$StrategyLearner2.coverage" NAME="StrategyLearner2 Coverage Results" MODIFIED="1535937853457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_strategy_learner__1_.coverage" NAME="grade_strategy_learner (1) Coverage Results" MODIFIED="1533692786291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$optimization.coverage" NAME="optimization Coverage Results" MODIFIED="1535943213550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$Insanetestlearner.coverage" NAME="Insanetestlearner Coverage Results" MODIFIED="1532884472284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$indicatorOptimization.coverage" NAME="indicatorOptimization Coverage Results" MODIFIED="1535508785035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$StrategyLearner.coverage" NAME="StrategyLearner Coverage Results" MODIFIED="1535943409781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$OptimalTechnicalStrategy.coverage" NAME="OptimalTechnicalStrategy Coverage Results" MODIFIED="1532902492296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/G_TechnicalStrategies" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$indicators__1_.coverage" NAME="indicators (1) Coverage Results" MODIFIED="1535766918309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RT2" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$optimization__4_.coverage" NAME="optimization (4) Coverage Results" MODIFIED="1532819772966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$pca_demo.coverage" NAME="pca_demo Coverage Results" MODIFIED="1535503727496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis2.coverage" NAME="analysis2 Coverage Results" MODIFIED="1535766321364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_best4.coverage" NAME="grade_best4 Coverage Results" MODIFIED="1533427920169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/D_DefeatLearner" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$marketsimcode.coverage" NAME="marketsimcode Coverage Results" MODIFIED="1535766824915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RT" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$rule_based.coverage" NAME="rule_based Coverage Results" MODIFIED="1536579550447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RF" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$TechnicalReturn.coverage" NAME="TechnicalReturn Coverage Results" MODIFIED="1533422165729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/G_TechnicalStrategies" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testlearner.coverage" NAME="testlearner Coverage Results" MODIFIED="1535943421219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$RTtestlearner.coverage" NAME="RTtestlearner Coverage Results" MODIFIED="1532889314477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1/mc3_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$best_strategy_sim__1_.coverage" NAME="best_strategy_sim (1) Coverage Results" MODIFIED="1532891858153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$RTLearner__1_.coverage" NAME="RTLearner (1) Coverage Results" MODIFIED="1533425311849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis__2_.coverage" NAME="analysis (2) Coverage Results" MODIFIED="1532803559950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Another/mc1_p1" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$pca.coverage" NAME="pca Coverage Results" MODIFIED="1535503721095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_learners__1_.coverage" NAME="grade_learners (1) Coverage Results" MODIFIED="1532884003549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$optimization__1_.coverage" NAME="optimization (1) Coverage Results" MODIFIED="1532821778786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/C_PortfolioOptimization" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$marketsim__1_.coverage" NAME="marketsim (1) Coverage Results" MODIFIED="1532865599339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/C_MarketSimulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$Bagtestlearner__1_.coverage" NAME="Bagtestlearner (1) Coverage Results" MODIFIED="1532881397142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$BagLearnerTest.coverage" NAME="BagLearnerTest Coverage Results" MODIFIED="1532885194649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testlearner__1_.coverage" NAME="testlearner (1) Coverage Results" MODIFIED="1532802160844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/assess_learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$utilities.coverage" NAME="utilities Coverage Results" MODIFIED="1535509597547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$BagLearner__1_.coverage" NAME="BagLearner (1) Coverage Results" MODIFIED="1533517800088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1533854023541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$QLearner__1_.coverage" NAME="QLearner (1) Coverage Results" MODIFIED="1535509202448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$ManualStrategy.coverage" NAME="ManualStrategy Coverage Results" MODIFIED="1536579555058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Simulator" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$analysis__5_.coverage" NAME="analysis (5) Coverage Results" MODIFIED="1532803666274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CS7646-master/mc1_p2/portfolio" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$updated_indicators.coverage" NAME="updated_indicators Coverage Results" MODIFIED="1535509189283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM2" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_analysis.coverage" NAME="grade_analysis Coverage Results" MODIFIED="1535766253498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Analysis" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$InsaneLearner.coverage" NAME="InsaneLearner Coverage Results" MODIFIED="1535748444356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$testqlearner.coverage" NAME="testqlearner Coverage Results" MODIFIED="1535943431602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$marketSim.coverage" NAME="marketSim Coverage Results" MODIFIED="1535508003399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_learners.coverage" NAME="grade_learners Coverage Results" MODIFIED="1533516973719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$RTLearner.coverage" NAME="RTLearner Coverage Results" MODIFIED="1535943286355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LSTM" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$TestQ.coverage" NAME="TestQ Coverage Results" MODIFIED="1536579501530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$technicalAnalysis.coverage" NAME="technicalAnalysis Coverage Results" MODIFIED="1535507995230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$generateTrainingData.coverage" NAME="generateTrainingData Coverage Results" MODIFIED="1535508782425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANN" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$trystrategylearner.coverage" NAME="trystrategylearner Coverage Results" MODIFIED="1535941449123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$grade_optimization.coverage" NAME="grade_optimization Coverage Results" MODIFIED="1532821116585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/B_PortfolioOptimization" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$InsaneLearnerTest.coverage" NAME="InsaneLearnerTest Coverage Results" MODIFIED="1532885244297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/E_Learners" />
+    <SUITE FILE_PATH="coverage/AlgorithmicTrader$gen_data__1_.coverage" NAME="gen_data (1) Coverage Results" MODIFIED="1532876419399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearning/D_OverFit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indicators.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RF/indicators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cross</find>
+      <find>RTLearner</find>
+      <find>scatter</find>
+      <find>rtl</find>
+      <find>learner</find>
+      <find>SMA</find>
+      <find>getSmaIndicator</find>
+      <find>testcode_marketsim</find>
+      <find>mc3_p1</find>
+      <find>SPY</find>
+      <find>get_portfolio_stats</find>
+      <find>sharpe_ratio</find>
+      <find>rt.RTclassLearner</find>
+      <find>add_Evidence</find>
+      <find>sl</find>
+      <find>corr</find>
+      <find>cor</find>
+      <find>syms</find>
+      <find>range</find>
+      <find>print (</find>
+      <find>print</find>
+      <find>sma</find>
+      <find>rolling</find>
+      <find>macd</find>
+      <find>channel</find>
+      <find>support</find>
+      <find>rmse</find>
+      <find>hour</find>
+      <find>2011</find>
+      <find>spy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sma</replace>
+      <replace>symbol_to_path</replace>
+      <replace>addEvidence</replace>
+      <replace>RTLearner</replace>
+      <replace>symbol</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1/mc3_p3/rule_based.py" />
+        <option value="$PROJECT_DIR$/1/mc3_p3/ML_based.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/RT2/marketsim.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/RT2/ML_based.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/RT2/RTLearner.py" />
+        <option value="$PROJECT_DIR$/1/mc3_p4/StrategyLearner.py" />
+        <option value="$PROJECT_DIR$/1/mc3_p4/StrategyLearner2.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Q/QLearner.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Q/StrategyLearner.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Q/StrategyLearner2.py" />
+        <option value="$PROJECT_DIR$/LSTM/analysis.ipynb" />
+        <option value="$PROJECT_DIR$/LSTM/LSTM_Stock_Test.ipynb" />
+        <option value="$PROJECT_DIR$/LSTM/analysis.py" />
+        <option value="$PROJECT_DIR$/Analysis/analysis.py" />
+        <option value="$PROJECT_DIR$/Simulator/marketsim.py" />
+        <option value="$PROJECT_DIR$/Optimization/optimization.py" />
+        <option value="$PROJECT_DIR$/ANN/marketSim.py" />
+        <option value="$PROJECT_DIR$/LSTM2/indicators.py" />
+        <option value="$PROJECT_DIR$/ANN/technicalAnalysis.py" />
+        <option value="$PROJECT_DIR$/.ipynb_checkpoints/SDD-checkpoint.ipynb" />
+        <option value="$PROJECT_DIR$/ANN/featureSelection.py" />
+        <option value="$PROJECT_DIR$/ANN/utilities.py" />
+        <option value="$PROJECT_DIR$/PCA/Indicators.py" />
+        <option value="$PROJECT_DIR$/Simulator/indicators.py" />
+        <option value="$PROJECT_DIR$/Simulator/ManualStrategy.py" />
+        <option value="$PROJECT_DIR$/Learners/RTLearner.py" />
+        <option value="$PROJECT_DIR$/Analysis/analysis2.py" />
+        <option value="$PROJECT_DIR$/Learners/BagLearner.py" />
+        <option value="$PROJECT_DIR$/Learners/DTLearner.py" />
+        <option value="$PROJECT_DIR$/Learners/test.py" />
+        <option value="$PROJECT_DIR$/RT2/marketsim.py" />
+        <option value="$PROJECT_DIR$/Q2/learning_trade.ipynb" />
+        <option value="$PROJECT_DIR$/Q/StrategyLearner.py" />
+        <option value="$PROJECT_DIR$/Q/trystrategylearner.py" />
+        <option value="$PROJECT_DIR$/LSTM/optimization.py" />
+        <option value="$PROJECT_DIR$/LSTM/util.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/Learners/Ensemble.py" />
+        <option value="$PROJECT_DIR$/Learners/RT.py" />
+        <option value="$PROJECT_DIR$/LSTM/BagLearner.py" />
+        <option value="$PROJECT_DIR$/LSTM/best_strategy_sim.py" />
+        <option value="$PROJECT_DIR$/LSTM/indicators.py" />
+        <option value="$PROJECT_DIR$/LSTM/LSTM.py" />
+        <option value="$PROJECT_DIR$/LSTM/QLearner.py" />
+        <option value="$PROJECT_DIR$/LSTM/RF.py" />
+        <option value="$PROJECT_DIR$/LSTM/simulate_market.py" />
+        <option value="$PROJECT_DIR$/LSTM/testlearner.py" />
+        <option value="$PROJECT_DIR$/LSTM/teststrategy.py" />
+        <option value="$PROJECT_DIR$/LSTM/updated_indicators.py" />
+        <option value="$PROJECT_DIR$/RF/Ensemble.py" />
+        <option value="$PROJECT_DIR$/RF/ta.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="290" />
+    <option name="y" value="-25" />
+    <option name="width" value="1750" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AlgorithmicTrader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicTrader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicTrader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicTrader" type="462c0819:PsiDirectoryNode" />
+              <item name="RF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="cor&#9;FILE&#9;file://C:/Users/0/Desktop/Git/AlgorithmicTrader/ANN/indicatorOptimization.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\Data" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\ANN" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\MachineLearning\RT2" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\MachineLearning\Q" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\MachineLearning\G_TechnicalStrategies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\Learners" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\RF" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\LSTM" />
+      <recent name="C:\Users\0\Desktop\Git\AlgorithmicTrader\Research" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.marketsim">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ML_based" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RF" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RF/ML_based.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ManualStrategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulator/ManualStrategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="TestQ" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q/TestQ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="marketsim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simulator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simulator/marketsim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="rule_based" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RF" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RF/rule_based.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="AlgorithmicTrader" type="Python.Ipnb" factoryName="Jupyter Notebook">
+      <module name="AlgorithmicTrader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.AlgorithmicTrader" />
+      <item itemvalue="Python.TestQ" />
+      <item itemvalue="Python.rule_based" />
+      <item itemvalue="Python.ML_based" />
+      <item itemvalue="Python.ManualStrategy" />
+      <item itemvalue="Python.marketsim" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.marketsim" />
+        <item itemvalue="Python.ManualStrategy" />
+        <item itemvalue="Python.rule_based" />
+        <item itemvalue="Python.ML_based" />
+        <item itemvalue="Python.TestQ" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1533769976544" text="corr" recursive="true" caseInsensitive="true" type="JAVA" history="1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad2bfb05-9c18-4322-a564-b9c5ba45d948" name="Default" comment="" />
+      <created>1532375815867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532375815867</updated>
+      <workItem from="1532375817319" duration="576000" />
+      <workItem from="1532800228742" duration="480000" />
+      <workItem from="1532800732762" duration="45850000" />
+      <workItem from="1532942945897" duration="3187000" />
+      <workItem from="1532987349661" duration="594000" />
+      <workItem from="1533139949217" duration="768000" />
+      <workItem from="1533334941148" duration="629000" />
+      <workItem from="1533389645972" duration="4884000" />
+      <workItem from="1533405791995" duration="1464000" />
+      <workItem from="1533415811760" duration="8808000" />
+      <workItem from="1533508678069" duration="8126000" />
+      <workItem from="1533593487016" duration="767000" />
+      <workItem from="1533651095096" duration="6377000" />
+      <workItem from="1533674159585" duration="5467000" />
+      <workItem from="1533742286915" duration="13367000" />
+      <workItem from="1533770730778" duration="345000" />
+      <workItem from="1533833538588" duration="3463000" />
+      <workItem from="1533837749497" duration="11000" />
+      <workItem from="1533839593651" duration="4238000" />
+      <workItem from="1533846406080" duration="573000" />
+      <workItem from="1533847038978" duration="1900000" />
+      <workItem from="1533848978423" duration="730000" />
+      <workItem from="1533849841469" duration="334000" />
+      <workItem from="1533852453384" duration="620000" />
+      <workItem from="1533853136474" duration="1272000" />
+      <workItem from="1533924416709" duration="834000" />
+      <workItem from="1533933945126" duration="1227000" />
+      <workItem from="1534424430826" duration="6185000" />
+      <workItem from="1534512118497" duration="5664000" />
+      <workItem from="1534555925139" duration="4000" />
+      <workItem from="1534856675144" duration="5743000" />
+      <workItem from="1534954833358" duration="5277000" />
+      <workItem from="1535487433413" duration="8724000" />
+      <workItem from="1535509717443" duration="1421000" />
+      <workItem from="1535517708511" duration="1367000" />
+      <workItem from="1535582498045" duration="1572000" />
+      <workItem from="1535643214997" duration="4945000" />
+      <workItem from="1535721717576" duration="9982000" />
+      <workItem from="1535900197812" duration="749000" />
+      <workItem from="1535908046356" duration="9559000" />
+      <workItem from="1535969130423" duration="2028000" />
+      <workItem from="1536189339956" duration="2808000" />
+      <workItem from="1536254473591" duration="4752000" />
+      <workItem from="1536579487806" duration="692000" />
+      <workItem from="1536611602378" duration="1838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190201000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1295573" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2669271" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974618" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="SciView" order="8" visible="true" weight="0.296875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974618" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32994923" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32994923" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1998698" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3/simulate_market.py</url>
+          <line>2</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3/indicators.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1/mc3_p3/indicators.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LSTM/teststrategy.py</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LSTM/best_strategy_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/t-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/ob.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/translators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/QStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learners/Ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learners/RT.py" />
+    <entry file="file://$PROJECT_DIR$/Learners/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/Q.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/teststrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/testlearner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/StrategyLearner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1963" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/strategy_test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/RF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/Q.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/ProfitCalendar.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/Profit Map.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/LSTM_Stock_Test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/LSTM2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RF/rule_based.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/LSTM.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/indicators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/marketSim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/indicatorOptimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/generateTrainingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/ANN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PCA/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q/tTest/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RF/RF.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tut.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RF/indicators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AlgorithmicTrader</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
